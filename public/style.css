@@ -1,0 +1,284 @@
+body{
+    background-color: #ffffce;
+}
+#footer{
+    height: 50px;
+    width: 900px;
+    margin:10px auto 0px;
+    padding: 30px 0 0 0;
+    background-color: rgb(217, 217, 217);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.26);
+}
+#copyright{
+    width: 500px;
+    margin:0 auto;
+}
+
+.pics {
+    height:  300px;
+    width:   900px;
+    padding: 0;
+    margin:  10px auto;
+}
+.pics img {
+    border:  1px solid #ccc;
+    background-color: #eee;
+    width:  900px;
+    height: 300px;
+    margin:  0 auto;
+}
+#news,#product {
+    margin:40px auto;
+}
+#newsBox,#productBox{
+    margin:0px auto;
+    width:900px;
+    font-family:Arial,微軟正黑體;
+}
+#newsBox h3{
+    margin: 0px;
+}
+#news_more:link,#news_more:visited,#product_more:link,#product_more:visited {
+    background-color: #5A2626;
+    border:0px;
+    color: white;
+    padding: 0px 5px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;cursor: pointer;
+    font-size: 14px;
+}
+#news_more:hover,#news_more:active,#product_more:hover,#product_more:active {
+    background-color: #8A3000;
+}
+#newsList{
+    width:900px;
+    height: 522px;
+    padding-top: 45px;
+    margin:0 auto;
+}
+#newsListBox{
+    height: 170px;
+    margin:30px auto 0px;
+}
+#lb_news,#lb_contact{
+    margin-left: 125px;
+    font-family: 微軟正黑體;
+}
+#lb_contact{margin-left: 175px;}
+#tb_news, #tb_newsList {
+    margin:5px auto 0px;
+    border-spacing: 0px;
+}
+#tb_news td,#tb_newsList td{
+    background-color: #ccd9ff;
+}
+#tb_news th,#tb_news td,#tb_newsList th,#tb_newsList td {
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#tb_news tr:first-child th:first-child,#tb_newsList tr:first-child th:first-child{
+    border-top-left-radius: 5px;
+    background-color: #5A2626;
+    color: white;
+}
+#tb_news tr:last-child td:first-child,#tb_newsList tr:last-child td:first-child{
+    border-bottom-left-radius: 5px;
+}
+#tb_news tr:first-child th:last-child,#tb_newsList tr:first-child th:last-child{
+    border-top-right-radius: 5px;
+    background-color: #5A2626;
+    color:white;
+}
+#tb_news tr:last-child td:last-child,#tb_newsList tr:last-child td:last-child{
+    border-bottom-right-radius: 5px;
+}
+#tb_page a:link,#tb_page a:visited,#tb_page a:hover,#tb_page a:active {
+    color:#5A2626;
+}
+#tb_page{
+    position:relative;
+    top: 90px;
+}
+#tb_page a{
+    text-decoration: none;
+}
+#tb_newsList a,#tb_news a,#tb_new_product a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#5A2626;
+}
+#news_content_wrap{
+	width: 900px;
+	margin: 0px auto;
+}
+#news_content {
+  width: 600px;
+  margin: 0px auto;
+}
+#news_content_btn {
+  width: 100px;
+  margin: 0px auto;
+}
+#about_wrap,#contact,#product_wrap{
+    width: 900px;
+    height: 600px;
+    margin:10px auto;
+}
+#about_nav,#product_nav{
+    width: 200px;
+    height: 600px;
+    float: left;
+    background-color: #ccd9ff;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.26);
+}
+#about_nav a,#product_nav a{
+    text-decoration: none;
+    font-size: 23px;
+    color:#5A2626;
+    font-family: 微軟正黑體;
+}
+#about_nav table,#product_nav table{
+    margin-top: 40px;
+    width:200px;
+}
+#about_content_wrap,#product_content_wrap,#product_list_wrap,#product_view_wrap{
+    width: 700px;
+    height: 600px;
+    float: left;
+}
+#about_content{
+    margin-left: 40px;
+    margin-top:20px;
+}
+#contact_Box{
+    background-color: #ccd9ff;
+    width: 400px;
+    height: 560px;
+    margin: 0px auto;
+    padding: 20px 10px 10px 51px;
+    font-family: arial;
+    -moz-box-shadow: 3px 3px 5px #000000;
+    -webkit-box-shadow: 2px 2px 3px #424242;
+    box-shadow: 2px 2px 2px #5A5A5A;
+}
+#contact_form label,#formSignIn label{
+    width: 74px;
+    display: block;
+    padding: 3px 0px;
+}
+#contact_form input[type=text],#formSignIn input[type=text],
+#contact_form input[type=password],#formSignIn input[type=password]{
+    border:1px solid white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    -moz-box-shadow: 3px 3px 5px #000000;
+    -webkit-box-shadow: 2px 2px 3px #424242;
+    box-shadow: 2px 2px 2px #5A5A5A;width: 231px;
+}
+#contact_form textarea{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #5A5A5A;width: 231px;
+}
+#contact_form input[type=submit],#formSignIn input[type=submit],
+#contact_form input[type=button],#formSignIn input[type=button],
+#contact_form input[type=reset],#formSignIn input[type=reset]{
+    background: #5A2626;
+    border: 0px;
+    color: white;
+    padding: 5px 0px;
+    width: 243px;
+    margin-top: 10px;
+    font-size: 18px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;cursor: pointer;
+}
+#contact{
+    padding-top: 45px;
+    height: 700px;
+}
+
+#tb_product a:link,#tb_product a:visited {
+  background-color: #ccd9ff;
+  color: #5A2626;
+  padding: 15px 0;
+  text-decoration: none;
+  display: inline-block;
+  width: 196px;
+}
+
+
+#tb_product a:hover,#tb_product a:active {
+    background-color: #99CCFF;
+}
+
+#signin_block {
+    background-color: #ccd9ff;
+    width: 380px;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: 50px;
+    padding: 20px 10px 10px 51px;
+    font-family: arial;
+    -moz-box-shadow: 3px 3px 5px #000000;
+    -webkit-box-shadow: 2px 2px 3px #424242;
+    box-shadow: 2px 2px 2px #5A5A5A;
+}
+
+#productHr hr {
+    margin-top: -10px;
+}
+#tb_new_product hr {
+    width: 150px;
+}
+#tb_new_product td {
+    width: 200px;
+}
+#tb_new_product {
+  margin: 20px auto;
+  height: 190px;
+}
+
+#li_product {
+  display: inline;
+  float:left;
+  width: 300px;
+  height: 200px;
+}
+#li_product a{
+  text-decoration: none;
+  font-size: 18px;
+  color:#5A2626;
+  font-family: 微軟正黑體;
+}
+
+#product_view {
+  width: 500px;
+  margin: auto;
+  font-family: 微軟正黑體;
+}
+
+#product_view h1{
+  color:#5A2626;
+}
+
+#news_content_btn input[type=button],#product_view input[type=button] {
+  background: #5A2626;
+  border: 0px;
+  color: white;
+  padding: 5px 0px;
+  width: 100px;
+  margin-top: 10px;
+  font-size: 14px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;cursor: pointer;
+}

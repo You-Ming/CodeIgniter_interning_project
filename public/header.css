@@ -1,0 +1,101 @@
+#headerNavBox li{
+	display: inline;
+}
+
+body{
+	margin: 0;
+    padding: 0;
+}
+#header_wrap {
+	height: 110px;
+	width: 900px;
+	margin: 0px auto;
+	padding: 0px;
+	z-index: 98;
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.26);
+	background-image: url(../images/header.jpg);
+
+}
+
+.headerLogo a {
+	background-image: url(../images/Logo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	float: left;
+	height: 90px;
+	width: 90px;
+	text-indent: -99999px;
+}
+
+#header #headerNavBox {
+	width: 850px;
+	height: 110px;
+}
+#header {
+	float: left;
+}
+#headerNavBox .headerNav {
+	list-style-image: none;
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+}
+
+#headerNavBox .headerNav li {
+	float: left;
+	padding: 0px;
+	margin-top: 40px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+}
+
+#headerNavBox .headerNav li a {
+	float:left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+
+#headerNavBox .headerNav li:nth-child(1) a {
+	height: 50px;
+	width: 130px;
+	background-image: url(../images/about.png);
+	background-size: contain;
+}
+
+#headerNavBox .headerNav li:nth-child(2) a {
+	height: 50px;
+	width: 65px;
+	background-image: url(../images/news.png);
+	background-size: contain;
+}
+
+#headerNavBox .headerNav li:nth-child(3) a {
+	height: 50px;
+	width: 65px;
+	background-image: url(../images/product.png);
+    background-size: contain;
+}
+
+#headerNavBox .headerNav li:nth-child(4) a {
+	height: 50px;
+	width: 130px;
+	background-image: url(../images/contact.png);
+	background-size: contain;
+}
+#headerSignin {
+	float:right;
+}
+
+#signin_link {
+	text-decoration: none;
+	color:black;
+}

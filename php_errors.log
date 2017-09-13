@@ -1,0 +1,48 @@
+[04-Sep-2017 12:29:01 UTC] PHP Fatal error:  Call to undefined method Banner_model::test_input() in /home/ubuntu/workspace/application/controllers/admin/Ajax.php on line 171
+[04-Sep-2017 12:29:01 UTC] PHP Stack trace:
+[04-Sep-2017 12:29:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[04-Sep-2017 12:29:01 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:315
+[04-Sep-2017 12:29:01 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 12:29:01 UTC] PHP   4. Ajax->update_banner() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 12:32:12 UTC] PHP Fatal error:  Call to undefined method Banner_model::test_input() in /home/ubuntu/workspace/application/controllers/admin/Ajax.php on line 171
+[04-Sep-2017 12:32:12 UTC] PHP Stack trace:
+[04-Sep-2017 12:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[04-Sep-2017 12:32:12 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:315
+[04-Sep-2017 12:32:12 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 12:32:12 UTC] PHP   4. Ajax->update_banner() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 12:32:25 UTC] PHP Fatal error:  Call to undefined method Banner_model::test_input() in /home/ubuntu/workspace/application/controllers/admin/Ajax.php on line 171
+[04-Sep-2017 12:32:25 UTC] PHP Stack trace:
+[04-Sep-2017 12:32:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[04-Sep-2017 12:32:25 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:315
+[04-Sep-2017 12:32:25 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 12:32:25 UTC] PHP   4. Ajax->update_banner() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 12:40:40 UTC] PHP Fatal error:  Call to undefined method Banner_model::test_input() in /home/ubuntu/workspace/application/controllers/admin/Ajax.php on line 171
+[04-Sep-2017 12:40:40 UTC] PHP Stack trace:
+[04-Sep-2017 12:40:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[04-Sep-2017 12:40:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:315
+[04-Sep-2017 12:40:40 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 12:40:40 UTC] PHP   4. Ajax->update_banner() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 12:40:45 UTC] PHP Fatal error:  Call to undefined method Banner_model::test_input() in /home/ubuntu/workspace/application/controllers/admin/Ajax.php on line 171
+[04-Sep-2017 12:40:45 UTC] PHP Stack trace:
+[04-Sep-2017 12:40:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[04-Sep-2017 12:40:45 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:315
+[04-Sep-2017 12:40:45 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 12:40:45 UTC] PHP   4. Ajax->update_banner() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 12:40:51 UTC] PHP Fatal error:  Call to undefined method Banner_model::test_input() in /home/ubuntu/workspace/application/controllers/admin/Ajax.php on line 171
+[04-Sep-2017 12:40:51 UTC] PHP Stack trace:
+[04-Sep-2017 12:40:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[04-Sep-2017 12:40:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:315
+[04-Sep-2017 12:40:51 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 12:40:51 UTC] PHP   4. Ajax->update_banner() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 12:43:59 UTC] PHP Fatal error:  Call to undefined method Banner_model::test_input() in /home/ubuntu/workspace/application/controllers/admin/Ajax.php on line 171
+[04-Sep-2017 12:43:59 UTC] PHP Stack trace:
+[04-Sep-2017 12:43:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[04-Sep-2017 12:43:59 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:315
+[04-Sep-2017 12:43:59 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 12:43:59 UTC] PHP   4. Ajax->update_banner() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 13:00:13 UTC] PHP Fatal error:  Call to undefined method Banner_model::escape_string() in /home/ubuntu/workspace/application/controllers/admin/Ajax.php on line 171
+[04-Sep-2017 13:00:13 UTC] PHP Stack trace:
+[04-Sep-2017 13:00:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[04-Sep-2017 13:00:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:315
+[04-Sep-2017 13:00:13 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/system/core/CodeIgniter.php:514
+[04-Sep-2017 13:00:13 UTC] PHP   4. Ajax->update_banner() /home/ubuntu/workspace/system/core/CodeIgniter.php:514

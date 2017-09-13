@@ -1,0 +1,40 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+#admin_header_wrap {
+	height:110px;
+	width:100%;
+	margin:0px auto 5px;
+	padding:0px;
+	z-index:98;
+	box-shadow:0px 5px 10px 0px rgba(0,0,0,0.26);
+}
+
+#admin_header_logo a{
+	background-image: url(/images/Logo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	float: left;
+	height: 90px;
+	width: 90px;
+	text-indent: -99999px;
+}
+
+#admin_header_log_out{
+	float:left;
+}
+
+#footer{
+    height: 50px;
+    width: 100%;
+    margin:2px auto 0px;
+    padding: 30px 0 0 0;
+    background-color: rgb(217, 217, 217);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.26);
+}
+#copyright{
+    width: 500px;
+    margin:0 auto;
+}
